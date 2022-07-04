@@ -1,0 +1,17 @@
+body{
+    background-image: url(img/68b59ce22bfaa0fc5b80fa506eb2519f.jpg);
+    background-repeat: no-repeat;
+    background-size :cover ;
+    
+    
+}
+.container{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 27%;
+    min-height: 200px;
+    color: white;
+    font-size: 48px;
+}
