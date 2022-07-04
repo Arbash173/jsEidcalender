@@ -9,6 +9,7 @@ var now = today.getTime()
  var eidday1 = diff/(1000*60*60*24)
  eidday1 = Math.ceil(eidday1)
  console.log(eidday1)
+ document.getElementById("days").innerHTML=eidday1;
 
 //  For hours
 var eid = new Date("july 10,2022")
@@ -21,6 +22,8 @@ var now = today.getTime()
  var eidhour = diff/(1000*60*60)
  eidhour = Math.ceil(eidhour)
  console.log(eidhour)
+ document.getElementById("hours").innerHTML=eidhour;
+
 
 //  for min
 var eid = new Date("july 10,2022")
@@ -33,6 +36,8 @@ var now = today.getTime()
  var eidmin = diff/(1000*60)
  eidmin = Math.ceil(eidmin)
  console.log(eidmin)
+ document.getElementById("min").innerHTML=eidmin;
+
 
 //  for sec
 var eid = new Date("july 10,2022")
@@ -45,3 +50,5 @@ var now = today.getTime()
  var eidsec = diff/(1000)
  eidsec = Math.ceil(eidsec)
  console.log(eidsec)
+ document.getElementById("sec").innerHTML=eidsec;
+
